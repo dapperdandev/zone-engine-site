@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Zone Engine — Heart-rate zone training for Android</title>
+        <meta
+            name="description"
+            content="Heart-rate zone training with live monitoring, guided intervals, and voice cues. Free, no account, all on-device."
+        />
+        <link rel="icon" href="/images/icon.png" />
+        <meta property="og:title" content="Zone Engine" />
+        <meta
+            property="og:description"
+            content="Heart-rate zone training with live monitoring, guided intervals, and voice cues."
+        />
+        <meta property="og:image" content="/images/og.png" />
+        <meta property="og:type" content="website" />
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="wrap nav-inner">
+                <a class="brand" href="/">
+                    <img src="/images/icon.png" alt="" />
+                    <span>Zone Engine</span>
+                </a>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="/privacy">Privacy</a>
+                    <span class="soon"><i class="bi bi-hourglass-split"></i> Coming Soon</span>
+                </div>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <div class="wrap hero-inner">
+                <div class="hero-copy">
+                    <span class="eyebrow">Heart-rate zone training</span>
+                    <h1>Train in the <span class="grad-text">right zone</span>, every session.</h1>
+                    <p class="lead">
+                        Live BPM from your Bluetooth monitor, guided interval workouts that only count time
+                        in-zone, and spoken cues so you never have to look at your screen.
+                    </p>
+                    <div class="cta-row">
+                        <span class="soon lg"><i class="bi bi-hourglass-split"></i> Coming Soon</span>
+                    </div>
+                    <p class="trust">Free. No account. Everything stays on your device.</p>
+                </div>
+                <div class="hero-art">
+                    <div class="phone">
+                        <img src="/images/02-workout-live.png" alt="Zone Engine live workout screen" />
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="zone-strip">
+            <div class="wrap">
+                <span style="--c: var(--z2)">Zone 2</span>
+                <span style="--c: var(--z3)">Zone 3</span>
+                <span style="--c: var(--z4)">Zone 4</span>
+                <span style="--c: var(--z5)">Zone 5</span>
+            </div>
+        </div>
+
+        <section class="block" id="screens">
+            <div class="wrap">
+                <div class="section-head">
+                    <h2>See it in action</h2>
+                    <p>From picking a workout to staying locked in your target zone.</p>
+                </div>
+                <div id="shotCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#shotCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#shotCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#shotCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#shotCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="shot">
+                                <div class="phone"><img src="/images/01-select-workout.png" alt="Select a workout" /></div>
+                                <p class="caption">Pick a workout</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="shot">
+                                <div class="phone"><img src="/images/02-workout-live.png" alt="Live workout view" /></div>
+                                <p class="caption">Stay in your zone</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="shot">
+                                <div class="phone"><img src="/images/03-zones.png" alt="Zone settings" /></div>
+                                <p class="caption">Tune your zones</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="shot">
+                                <div class="phone"><img src="/images/04-settings.png" alt="Settings" /></div>
+                                <p class="caption">Make it yours</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#shotCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#shotCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="block" id="features">
+            <div class="wrap">
+                <div class="section-head">
+                    <h2>Built for focused training</h2>
+                    <p>Everything you need to train by heart rate, and nothing you don't.</p>
+                </div>
+                <div class="feature-grid">
+                    <div class="feature">
+                        <i class="bi bi-heart-pulse" style="color: var(--z5)"></i>
+                        <h3>Live heart rate</h3>
+                        <p>Connect any Bluetooth heart-rate monitor and watch your BPM and current zone update in real time.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="bi bi-stopwatch" style="color: var(--z4)"></i>
+                        <h3>Guided intervals</h3>
+                        <p>Interval time only accrues while you're in the target zone, so the work counts when it actually counts.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="bi bi-volume-up" style="color: var(--z3)"></i>
+                        <h3>Voice cues</h3>
+                        <p>Spoken prompts call out intervals and zone changes so you can keep your eyes off the screen.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="bi bi-shield-lock" style="color: var(--z2)"></i>
+                        <h3>Private by design</h3>
+                        <p>No account, no analytics, no servers. Your heart-rate data never leaves your phone.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="block cta-band">
+            <div class="wrap">
+                <div class="inner">
+                    <h2>Ready to train smarter?</h2>
+                    <p>Zone Engine is free, has no ads, and works with the monitor you already own.</p>
+                    <span class="soon lg"><i class="bi bi-hourglass-split"></i> Coming Soon</span>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="wrap footer-inner">
+                <a class="brand" href="/">
+                    <img src="/images/icon.png" alt="" />
+                    <span>Zone Engine</span>
+                </a>
+                <div class="footer-links">
+                    <a href="/privacy">Privacy</a>
+                </div>
+                <p class="copy">&copy; <span id="year"></span> Zone Engine</p>
+            </div>
+        </footer>
+
+        <script type="module" src="/src/main.js"></script>
+    </body>
+</html>
