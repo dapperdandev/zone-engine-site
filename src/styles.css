@@ -297,9 +297,10 @@ section.block {
     opacity: 1;
 }
 
-html[data-bs-theme='dark'] .carousel .carousel-control-prev-icon,
-html[data-bs-theme='dark'] .carousel .carousel-control-next-icon {
-    filter: none;
+.carousel-arrow {
+    width: 34px;
+    height: 34px;
+    color: #fff;
 }
 
 @media (max-width: 620px) {
