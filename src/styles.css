@@ -291,25 +291,6 @@ section.block {
     margin: 0;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    width: 44px;
-    opacity: 1;
-}
-
-.carousel-arrow {
-    width: 34px;
-    height: 34px;
-    color: #fff;
-}
-
-@media (max-width: 620px) {
-    .carousel-control-prev,
-    .carousel-control-next {
-        display: none;
-    }
-}
-
 .carousel-indicators {
     bottom: -44px;
 }
