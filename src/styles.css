@@ -297,6 +297,11 @@ section.block {
     opacity: 0.8;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: none;
+}
+
 @media (max-width: 620px) {
     .carousel-control-prev,
     .carousel-control-next {
